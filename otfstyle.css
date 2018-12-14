@@ -1,0 +1,139 @@
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #4A4A4A;
+    padding-left: 1%;
+    background-color: rgba(128,128,128,.25) !important;
+}
+
+@font-face {
+    font-family: "Klavika";
+    src: url("fonts/Klavika.ttf") format('truetype');
+    src: url("fonts/Klavika.woff") format("woff");
+}
+
+.container {
+    margin-left: 0 !important;
+    width: 950px !important;
+}
+
+h1 {
+	font-family: "Klavika" !important;
+    font-weight: 500;
+    color: #4D5256;
+}
+
+#templateLanding {
+	margin-top: 15px;
+	border: none;
+}
+
+#threeGroup, #twoGroup, #fourtyFive {
+	width: 75px;
+    display: none;
+}
+
+#templates {
+	border: 0;
+}
+
+#roster {
+	border: 1px solid black;
+    width: 45%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.row {
+	height: 450px !important;
+}
+
+tr th {
+	font-family: "Klavika" !important;
+    font-weight: 600 !important;
+    color: black !important;
+    font-size: 30px;
+    padding-bottom: 2.5%;
+}
+
+h2 {
+	font-family: "Klavika" !important;
+    font-weight: 600 !important;
+    color: black !important;
+    font-size: 30px;
+    padding-bottom: 2.5%;
+    padding-top: 0;
+    margin-top: 10px !important;
+    display: inline-block;
+    height: 1%;
+    padding-left: 1%;
+    vertical-align: middle;
+}
+
+.btn-default {
+	color: white !important;
+	background: linear-gradient(90deg, #f26922 0%, #d24631 100%) !important;
+	border-color: #ccc;
+    font-style: italic;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.12), 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    font-family: "Klavika" !important;
+    font-weight: 800 !important;
+    border-radius: 5px;
+}
+
+#refreshInstruct {
+	margin-top: 5px !important;
+}
+
+table {
+	margin-top: -1%;
+  	table-layout: fixed;
+  	width: 425px;
+}
+
+tr td {
+  width: 50px;
+  font-size: 17px;
+}
+
+form {
+	padding-right: 1%;
+	display: inline;
+}
+
+#time {
+	font-family: "Klavika" !important;
+    font-weight: 600 !important;
+    color: black !important;
+	padding-left: 1%;
+	font-size: 25px;
+	vertical-align: sub;
+}
+
+#icons {
+	width: 20%;
+}
+
+#landingButton {
+	margin-right: 10px !important;
+}
+
+.rosterButton {
+	margin-left: 10px !important;
+}
+
+#container {
+    padding: 1% 0%;
+}
+
+#splatImg {
+    width: 7%; 
+    padding-right: 1%;
+}
+
+#selectClass {
+    margin-bottom: -1.5%;
+}
+

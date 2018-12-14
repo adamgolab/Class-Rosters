@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../otfstyle.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<script type="text/javascript" src="../otfscripts.js"></script>  
+	<script src="https://momentjs.com/downloads/moment.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+	<link rel="icon" href="../img/splat.png">
+	<title>OTF Los Gatos: Templates</title>
+</head>
+<body>
+<div>
+	<h1>
+		<img src="../img/splat.png" id="splatImg">
+		Select A Template
+	</h1>
+	<p id="date"></p>
+	<button><a href='https://adamgolab.com/losgatos/otf.php'>Go Back</a></button>
+	<form method="POST" action="">
+  		<select id="type">
+  			<option>-</option>
+  			<option value="3">3G</option>
+  			<option value="2">2G</option>
+  			<option value="45">45 Minute</option>
+		</select>
+
+		<select id="threeGroup" onchange="document.getElementById('templates').src = this.options[this.selectedIndex].value">
+			<option value="../losgatos/3G/1.pdf">1</option>
+			<option value="../losgatos/3G/2.pdf">2</option>
+			<option value="../losgatos/3G/3.pdf">3</option>
+			<option value="../losgatos/3G/4.pdf">4</option>
+			<option value="../losgatos/3G/5.pdf">5</option>
+			<option value="../losgatos/3G/6.pdf">6</option> 
+			<option value="../losgatos/3G/7.pdf">7</option>
+			<option value="../losgatos/3G/8.pdf">8</option>
+			<option value="../losgatos/3G/9.pdf">9</option> 
+			<option value="../losgatos/3G/10.pdf">10</option>
+			<option value="../losgatos/3G/11.pdf">11</option>
+			<option value="../losgatos/3G/12.pdf">12</option> 
+			<option value="../losgatos/3G/13.pdf">13</option>
+			<option value="../losgatos/3G/14.pdf">14</option>
+			<option value="../losgatos/3G/15.pdf">15</option> 
+			<option value="../losgatos/3G/16.pdf">16</option>
+			<option value="../losgatos/3G/17.pdf">17</option>
+			<option value="../losgatos/3G/18.pdf">18</option>  
+			<option value="../losgatos/3G/19.pdf">19</option>
+			<option value="../losgatos/3G/20.pdf">20</option> 
+			<option value="../losgatos/3G/21.pdf">21</option>
+			<option value="../losgatos/3G/22.pdf2">22</option>
+			<option value="../losgatos/3G/23.pdf">23</option> 
+			<option value="../losgatos/3G/24.pdf">24</option>
+			<option value="../losgatos/3G/25.pdf">25</option>
+			<option value="../losgatos/3G/26.pdf">26</option> 
+			<option value="../losgatos/3G/27.pdf">27</option>
+			<option value="../losgatos/3G/28.pdf">28</option>
+			<option value="../losgatos/3G/29.pdf">29</option> 
+			<option value="../losgatos/3G/30.pdf">30</option>
+			<option value="../losgatos/3G/31.pdf">31</option>
+		</select>
+
+		<select id="twoGroup" onchange="document.getElementById('templates').src = this.options[this.selectedIndex].value">
+			<option value="../losgatos/2G/1.pdf">1</option>
+			<option value="../losgatos/2G/2.pdf">2</option>
+			<option value="../losgatos/2G/3.pdf">3</option>
+			<option value="../losgatos/2G/4.pdf">4</option>
+			<option value="../losgatos/2G/5.pdf">5</option>
+			<option value="../losgatos/2G/6.pdf">6</option> 
+			<option value="../losgatos/2G/7.pdf">7</option>
+			<option value="../losgatos/2G/8.pdf">8</option>
+			<option value="../losgatos/2G/9.pdf">9</option> 
+			<option value="../losgatos/2G/10.pdf">10</option>
+			<option value="../losgatos/2G/11.pdf">11</option>
+			<option value="../losgatos/2G/12.pdf">12</option> 
+			<option value="../losgatos/2G/13.pdf">13</option>
+			<option value="../losgatos/2G/14.pdf">14</option>
+			<option value="../losgatos/2G/15.pdf">15</option> 
+			<option value="../losgatos/2G/16.pdf">16</option>
+			<option value="../losgatos/2G/17.pdf">17</option>
+			<option value="../losgatos/2G/18.pdf">18</option>  
+			<option value="../losgatos/2G/19.pdf">19</option>
+			<option value="../losgatos/2G/20.pdf">20</option> 
+			<option value="../losgatos/2G/21.pdf">21</option>
+			<option value="../losgatos/2G/22.pdf">22</option>
+			<option value="../losgatos/2G/23.pdf">23</option> 
+			<option value="../losgatos/2G/24.pdf">24</option>
+			<option value="../losgatos/2G/25.pdf">25</option>
+			<option value="../losgatos/2G/26.pdf">26</option> 
+			<option value="../losgatos/2G/27.pdf">27</option>
+			<option value="../losgatos/2G/28.pdf">28</option>
+			<option value="../losgatos/2G/29.pdf">29</option> 
+			<option value="../losgatos/2G/30.pdf">30</option>
+			<option value="../losgatos/2G/31.pdf">31</option>
+		</select>
+
+		<select id="fourtyFive" onchange="document.getElementById('templates').src = this.options[this.selectedIndex].value">
+		</select>
+
+		<script>
+			var select = document.getElementById('fourtyFive');
+
+			var wednesday = moment().startOf('month').day("Wednesday");
+			if (wednesday.date() > 7) wednesday.add(7,'d');
+			var month = wednesday.month();
+
+			while(month === wednesday.month()) {
+				option = document.createElement('option');
+    			option.text = wednesday.date();
+    			option.value = "../losgatos/45/" + wednesday.date() + ".pdf";
+    			select.add(option);
+    			wednesday.add(7,'d');
+			}
+		</script>
+		<br><br>
+	</form>
+</div>
+<div>
+	<iframe id="templates" src="" width="850" height="650">></iframe>
+</div>
+<script>
+	$("#type").change(function(){
+    if($(this).val() == 3){
+      $("#threeGroup").show();
+    }else{
+      $("#threeGroup").hide();
+    } 
+});
+	$("#type").change(function(){
+    if($(this).val() == 2){
+      $("#twoGroup").show();
+    }else{
+      $("#twoGroup").hide();
+    } 
+});
+	$("#type").change(function(){
+    if($(this).val() == 45){
+      $("#fourtyFive").show();
+    }else{
+      $("#fourtyFive").hide();
+    } 
+});
+</script>
+<script>
+	n =  new Date();
+	y = n.getFullYear();
+	m = n.getMonth() + 1;
+	d = n.getDate();
+	document.getElementById("date").innerHTML = "Today is " + m + "-" + d + "-" + y;
+</script>
+</body>
+</html>
